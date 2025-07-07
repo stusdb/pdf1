@@ -44,7 +44,7 @@ export default function SearchPage() {
     performSearch()
   }, [debouncedQuery])
 
-  const placeholder = language === "ar" ? "ابحث عن الأفلام..." : "Search for movies..."
+  const placeholder = language === "ar" ? "ابحث عن النمانام" : "Search for movies..."
 
   return (
     <div className="min-h-screen bg-gray-950 p-4">
